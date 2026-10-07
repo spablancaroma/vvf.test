@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERY VERY FIZZY | 大阪・堂山町 コンセプトバー＆土日祝限定カフェ</title>
+
+    <!-- ファビコン・スマホホーム画面用アイコン (PWA / Web Clip) -->
+    <link rel="icon" href="https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630" type="image/jpeg">
+    <link rel="apple-touch-icon" href="https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630">
+
+    <!-- SEO / AIO / LLMO 基本メタタグ -->
+    <meta name="description" content="大阪・梅田（堂山町）にグランドオープン！男子(ゲイ)の部室をコンセプトにしたコンカフェ・隠れ家バー。土日祝15:00〜19:00は喫茶営業、19:00〜23:00はバー営業。ドリンク・フード・各種ゲーム完備。">
+    <meta name="keywords" content="VERY VERY FIZZY,ベリーベリーフィジー,大阪 ゲイバー,堂山 ゲイバー,堂山 カフェ,コンセプトカフェ,ゲイ 喫茶,波の日">
+
+    <!-- OGP (Facebook, LINE等 共通シェア設定) -->
+    <meta property="og:title" content="VERY VERY FIZZY | 大阪・堂山町 コンセプトバー＆喫茶">
+    <meta property="og:description" content="大人の放課後タイムへようこそ。男子(ゲイ)の部室コンセプトバー＆土日祝限定カフェ。">
+    <meta property="og:image" content="https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630">
+    <meta property="og:image:secure_url" content="https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card (Xでシェアされた時のロゴ画像表示設定) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@VeryVeryfizzy">
+    <meta name="twitter:creator" content="@VeryVeryfizzy">
+    <meta name="twitter:title" content="VERY VERY FIZZY | 大阪・堂山町 コンセプトバー＆喫茶">
+    <meta name="twitter:description" content="大人の放課後タイムへようこそ。男子(ゲイ)の部室コンセプトバー＆土日祝限定カフェ。">
+    <meta name="twitter:image" content="https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630">
+
+    <!-- AIO / LLMO 構造化データ (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["BarOrPub", "CafeOrCoffeeShop"],
+      "name": "VERY VERY FIZZY",
+      "alternateName": "ベリーベリーフィジー",
+      "image": "https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630",
+      "description": "「男子（ゲイ）の部室」をコンセプトにした隠れ家バー＆土日祝限定喫茶店。",
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "530-0026",
+        "addressRegion": "大阪府",
+        "addressLocality": "大阪市北区",
+        "streetAddress": "神山町8-12 日宝フレンドビル 3F",
+        "addressCountry": "JP"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "15:00",
+          "closes": "19:00",
+          "description": "土日祝限定 カフェタイム"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "19:00",
+          "closes": "23:00",
+          "description": "バータイム（L.O. 22:45）"
+        }
+      ],
+      "priceRange": "¥500 - ¥3,500",
+      "paymentAccepted": "Cash, Credit Card, Electronic Money, QR Code",
+      "sameAs": [
+        "https://x.com/VeryVeryfizzy",
+        "https://www.instagram.com/very_very_fizzy"
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Teko:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --sky-blue: #00a8ff;
+            --mint-cyan: #00e5d1;
+            --fresh-yellow: #ffeb3b;
+            --club-navy: #0e2a47;
+            --bg-fresh: #f0f7ff;
+            --white-card: #ffffff;
+            --text-main: #2c3e50;
+            --text-muted: #64748b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        /* 印刷設定 */
+        html, body {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+            color-adjust: exact !important;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-fresh);
+            line-height: 1.7;
+            word-wrap: break-word;
+            overflow-x: hidden;
+        }
+
+        /* アニメーション用キラキラ＆炭酸背景演出 */
+        .fizzy-bg {
+            background: radial-gradient(circle, rgba(0,229,209,0.1) 10%, transparent 11%),
+                        radial-gradient(circle, rgba(0,168,255,0.08) 10%, transparent 11%);
+            background-size: 32px 32px;
+            background-position: 0 0, 16px 16px;
+        }
+
+        /* ヘッダー */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 1000;
+            border-bottom: 3px solid var(--sky-blue);
+            box-shadow: 0 4px 20px rgba(0, 168, 255, 0.08);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* アイコン＋店名表示 */
+        .brand-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-img {
+            height: 44px;
+            width: auto;
+            border-radius: 10px;
+            display: block;
+            box-shadow: 0 2px 8px rgba(0,168,255,0.2);
+        }
+
+        .brand-name {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-weight: 900;
+            font-size: 1.35rem;
+            color: var(--club-navy);
+            letter-spacing: 0.02em;
+            white-space: nowrap;
+        }
+
+        .brand-name span {
+            color: var(--sky-blue);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 22px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--club-navy);
+            font-weight: 800;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: var(--sky-blue);
+            border-radius: 2px;
+            transition: width 0.3s;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.6rem;
+            color: var(--club-navy);
+            cursor: pointer;
+        }
+
+        /* ヒーローセクション (部室×青空) */
+        .hero {
+            position: relative;
+            padding: 140px 20px 80px;
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+            color: #ffffff;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .hero-pattern {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.15) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.15) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        /* 部室看板風バッジ */
+        .club-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--fresh-yellow);
+            color: var(--club-navy);
+            font-weight: 900;
+            padding: 8px 22px;
+            border-radius: 30px;
+            font-size: 0.95rem;
+            margin-bottom: 22px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            transform: rotate(-1deg);
+        }
+
+        .hero-logo-wrap {
+            margin-bottom: 22px;
+        }
+
+        .hero-logo {
+            max-width: 250px;
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            border: 4px solid #ffffff;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .hero-title {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 18px;
+            letter-spacing: 0.04em;
+            line-height: 1.3;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .hero-title .title-line {
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        .hero-subtitle {
+            font-size: 1.15rem;
+            font-weight: 700;
+            background: rgba(255,255,255,0.2);
+            display: inline-block;
+            padding: 8px 24px;
+            border-radius: 50px;
+            backdrop-filter: blur(5px);
+        }
+
+        /* セクション共通 */
+        .section {
+            padding: 80px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* 部室の表札・スコアボード風タイトル */
+        .section-title {
+            text-align: center;
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-size: 2rem;
+            color: var(--club-navy);
+            margin-bottom: 45px;
+            position: relative;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .section-title::before, .section-title::after {
+            content: '';
+            width: 40px;
+            height: 4px;
+            background: var(--sky-blue);
+            border-radius: 2px;
+        }
+
+        /* 【デザイン案】作戦ボード / 伝言板風 イベントカード */
+        .event-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .event-card {
+            background: var(--white-card);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,168,255,0.08);
+            border: 2px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .event-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--sky-blue);
+            box-shadow: 0 15px 35px rgba(0,168,255,0.15);
+        }
+
+        .event-img-wrap {
+            width: 100%;
+            height: 200px;
+            background: #e2e8f0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .event-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .event-content {
+            padding: 24px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .event-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .event-date {
+            font-family: 'Teko', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--sky-blue);
+            letter-spacing: 0.05em;
+        }
+
+        /* ユニフォームゼッケン風タグ */
+        .event-tag {
+            background: var(--club-navy);
+            color: #ffffff;
+            font-size: 0.75rem;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-weight: 800;
+            letter-spacing: 0.05em;
+        }
+
+        .event-title {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--club-navy);
+            margin-bottom: 10px;
+        }
+
+        .event-desc {
+            font-size: 0.92rem;
+            color: var(--text-main);
+            margin-bottom: 12px;
+            white-space: pre-wrap;
+        }
+
+        /* コンセプト（部室の特徴） */
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .concept-card {
+            background: var(--white-card);
+            border-radius: 20px;
+            padding: 35px 28px;
+            box-shadow: 0 8px 25px rgba(0, 168, 255, 0.06);
+            border-left: 6px solid var(--sky-blue);
+            position: relative;
+        }
+
+        .concept-card::after {
+            content: '';
+            position: absolute;
+            top: 15px; right: 20px;
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: rgba(0, 168, 255, 0.1);
+            font-size: 2.5rem;
+        }
+
+        .concept-card:nth-child(1)::after { content: '\f11b'; } /* ゲームパッド */
+        .concept-card:nth-child(2)::after { content: '\f0f4'; } /* コーヒー */
+
+        .concept-card h3 {
+            color: var(--club-navy);
+            font-size: 1.3rem;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+        }
+
+        /* 【デザイン案】部室のロッカー風 システム＆メニュー表 */
+        .menu-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .menu-block {
+            background: var(--white-card);
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+            border: 2px solid #e2e8f0;
+            position: relative;
+        }
+
+        /* ロッカー風のナンバリング */
+        .menu-block::before {
+            content: 'LOCKER';
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-family: 'Teko', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #cbd5e1;
+            letter-spacing: 0.1em;
+        }
+
+        .menu-block h3 {
+            font-size: 1.25rem;
+            color: var(--club-navy);
+            border-bottom: 3px dashed var(--sky-blue);
+            padding-bottom: 12px;
+            margin-bottom: 22px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 14px;
+            font-weight: 600;
+            border-bottom: 1px dashed #f1f5f9;
+            padding-bottom: 8px;
+        }
+
+        .price {
+            color: var(--sky-blue);
+            font-weight: 800;
+            font-family: 'Teko', sans-serif;
+            font-size: 1.3rem;
+        }
+
+        /* 店舗情報 & アクセス */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: var(--white-card);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .info-table th, .info-table td {
+            padding: 16px 18px;
+            text-align: left;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 0.95rem;
+        }
+
+        .info-table th {
+            background: #e0f2fe;
+            color: var(--club-navy);
+            width: 32%;
+            font-weight: 800;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 100%;
+            min-height: 360px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .pay-badge {
+            display: inline-block;
+            background: #f1f5f9;
+            color: var(--club-navy);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            margin: 2px;
+            font-weight: 700;
+        }
+
+        .sns-btn-group {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 5px;
+        }
+
+        .sns-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 18px;
+            border-radius: 10px;
+            color: #fff !important;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 0.85rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .sns-btn:hover { transform: translateY(-2px); }
+        .sns-x { background: #000000 !important; }
+        .sns-insta { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888) !important; }
+
+        /* FAQ */
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .faq-item {
+            background: var(--white-card);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+            border: 1px solid #e2e8f0;
+        }
+
+        .faq-question {
+            font-weight: 800;
+            color: var(--club-navy);
+            font-size: 1.08rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .faq-answer {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            padding-left: 32px;
+        }
+
+        /* 管理モーダル */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(14, 42, 71, 0.7);
+            backdrop-filter: blur(5px);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 550px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px; right: 20px;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: #888;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 800;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+            color: var(--club-navy);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            outline: none;
+        }
+
+        .form-control:focus {
+            border-color: var(--sky-blue);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 90px;
+        }
+
+        .btn-submit {
+            background: linear-gradient(135deg, var(--sky-blue), var(--mint-cyan));
+            color: #fff;
+            border: none;
+            padding: 14px 20px;
+            border-radius: 10px;
+            font-weight: 800;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1rem;
+            box-shadow: 0 4px 15px rgba(0,168,255,0.3);
+        }
+
+        .delete-btn {
+            background: #ef4444;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        /* フッター */
+        footer {
+            background: var(--club-navy);
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 80px;
+            font-size: 0.88rem;
+            position: relative;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 4px;
+            background: linear-gradient(to right, var(--sky-blue), var(--mint-cyan), var(--fresh-yellow));
+        }
+
+        .admin-link {
+            color: rgba(255,255,255,0.5);
+            text-decoration: underline;
+            font-size: 0.8rem;
+            cursor: pointer;
+            margin-top: 12px;
+            display: inline-block;
+        }
+
+        /* レスポンシブ調整 */
+        @media (max-width: 768px) {
+            .mobile-menu-btn { display: block; }
+            .brand-name { font-size: 1.15rem; }
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 66px; left: 0; width: 100%;
+                background: #fff;
+                flex-direction: column;
+                padding: 24px;
+                box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            }
+            .nav-links.active { display: flex; }
+            .info-grid { grid-template-columns: 1fr; }
+            .hero-title { font-size: 1.8rem; }
+            .hero-subtitle { font-size: 0.95rem; }
+            .section { padding: 60px 18px; }
+        }
+
+        /* 印刷スタイル */
+        @media print {
+            body { background-color: var(--bg-fresh) !important; }
+            header, .nav-links, .admin-link, .modal { display: none !important; }
+            .hero { padding: 40px 20px !important; }
+            .section { padding: 20px 10px !important; page-break-inside: avoid; }
+            .event-card, .concept-card, .menu-block, .info-table { box-shadow: none !important; border: 1px solid #ccc !important; }
+        }
+    </style>
+</head>
+<body class="fizzy-bg">
+
+    <!-- ヘッダー -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="brand-link">
+                <img src="https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630" alt="VERY VERY FIZZY Logo" class="logo-img">
+                <span class="brand-name">VERY VERY <span>FIZZY</span></span>
+            </a>
+            <button class="mobile-menu-btn" id="menuBtn"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#events">部室ニュース</a></li>
+                <li><a href="#concept">コンセプト</a></li>
+                <li><a href="#menu">システム＆メニュー</a></li>
+                <li><a href="#access">アクセス</a></li>
+                <li><a href="#faq">Q&A</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-pattern"></div>
+        <div class="hero-content">
+            <div class="club-badge"><i class="fa-solid fa-flag"></i> GRAND OPEN</div>
+            <div class="hero-logo-wrap">
+                <img src="https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630" alt="VERY VERY FIZZY" class="hero-logo">
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">大人の放課後タイムへ</span><br>
+                <span class="title-line">ようこそ！</span>
+            </h1>
+            <p class="hero-subtitle">大阪・堂山町｜男子(ゲイ)の部室コンセプトバー＆カフェ</p>
+        </div>
+    </section>
+
+    <!-- イベント＆お知らせ（伝言板風） -->
+    <section id="events" class="section">
+        <h2 class="section-title"><i class="fa-solid fa-bullhorn" style="color:var(--sky-blue);"></i> CLUB NEWS & EVENT</h2>
+        <div class="event-grid" id="eventContainer"></div>
+    </section>
+
+    <!-- コンセプト -->
+    <section id="concept" class="section">
+        <h2 class="section-title"><i class="fa-solid fa-id-card" style="color:var(--sky-blue);"></i> CONCEPT</h2>
+        <div class="concept-grid">
+            <div class="concept-card">
+                <h3>放課後のような気ままな部室空間</h3>
+                <p>「男子（ゲイ）の部室」をテーマにした爽やかで落ち着ける隠れ家バー。ボードゲームやマンガ、ゲーム機を完備。放課後に仲間と部室で集まってワイワイ遊ぶような、気ままな時間をお過ごしいただけます。</p>
+            </div>
+            <div class="concept-card">
+                <h3>昼はサクッとカフェ / 夜は賑やかバー</h3>
+                <p>土日祝の15:00〜19:00は「ゲイしかいない喫茶店」としてノンドレスコードで営業。19:00以降のバータイムはドレスコード（短パン、水着、スポユニ等）で賑やかにお酒と会話を楽しめます。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- メニュー & システム（ロッカー風デザイン） -->
+    <section id="menu" class="section">
+        <h2 class="section-title"><i class="fa-solid fa-clipboard-list" style="color:var(--sky-blue);"></i> SYSTEM & MENU</h2>
+        <div class="menu-wrapper">
+            <div class="menu-block">
+                <h3><i class="fa-solid fa-beer-mug-empty"></i> BAR TIME（飲み放題）</h3>
+                <div class="menu-item"><span>通常料金</span><span class="price">¥3,500</span></div>
+                <div class="menu-item"><span>20代割</span><span class="price">¥3,000</span></div>
+                <div class="menu-item"><span>22:00以降ご来店</span><span class="price">¥2,000</span></div>
+                <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 18px; line-height: 1.5;">※ドレスコードあり（短パン/水着/スポユニ/下着 等）。お得なSNS割引も実施中！</p>
+            </div>
+
+            <div class="menu-block">
+                <h3><i class="fa-solid fa-burger"></i> DRINK & FOOD</h3>
+                <div class="menu-item"><span>部室ソーダ / オーシャンパラダイス / 短パン日和</span><span class="price">各 ¥900</span></div>
+                <div class="menu-item"><span>ワンソフトドリンク（喫茶）</span><span class="price">¥500〜</span></div>
+                <div class="menu-item"><span>たこ焼き / 唐揚げ / イカの山芋焼き</span><span class="price">各 ¥500</span></div>
+                <div class="menu-item"><span>喫茶店のエビピラフ / 屋台のチャーハン</span><span class="price">各 ¥600</span></div>
+                <div class="menu-item"><span>枝豆 / 焼きおにぎり / カップ麺各種</span><span class="price">各 ¥300</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 店舗概要 & アクセス -->
+    <section id="access" class="section">
+        <h2 class="section-title"><i class="fa-solid fa-location-dot" style="color:var(--sky-blue);"></i> ACCESS & INFO</h2>
+        <div class="info-grid">
+            <div>
+                <table class="info-table">
+                    <tr>
+                        <th>店名</th>
+                        <td>VERY VERY FIZZY（ベリーベリーフィジー）</td>
+                    </tr>
+                    <tr>
+                        <th>オープン日</th>
+                        <td>2025年7月3日（波の日）</td>
+                    </tr>
+                    <tr>
+                        <th>住所</th>
+                        <td>〒530-0026 大阪府大阪市北区神山町8-12 日宝フレンドビル 3F<br><small style="color: var(--text-muted);">（JR大阪駅徒歩約12分 / 各線梅田・中崎町駅近く）</small></td>
+                    </tr>
+                    <tr>
+                        <th>営業時間</th>
+                        <td>
+                            <strong style="color:var(--sky-blue);">【土日祝カフェ】</strong> 15:00 〜 19:00<br>
+                            <strong style="color:var(--club-navy);">【バータイム】</strong> 19:00 〜 23:00（L.O 22:45）
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>定休日</th>
+                        <td>不定休（公式X/Instagramをご確認ください）</td>
+                    </tr>
+                    <tr>
+                        <th>タバコ</th>
+                        <td>喫煙可（※電子タバコのみ）</td>
+                    </tr>
+                    <tr>
+                        <th>決済方法</th>
+                        <td>
+                            <span class="pay-badge">現金</span>
+                            <span class="pay-badge">クレジットカード</span>
+                            <span class="pay-badge">電子マネー</span>
+                            <span class="pay-badge">QR決済</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>公式SNS</th>
+                        <td>
+                            <div class="sns-btn-group">
+                                <a href="https://x.com/VeryVeryfizzy" target="_blank" rel="noopener" class="sns-btn sns-x"><i class="fa-brands fa-x-twitter"></i> X (@VeryVeryfizzy)</a>
+                                <a href="https://www.instagram.com/very_very_fizzy" target="_blank" rel="noopener" class="sns-btn sns-insta"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="map-container">
+                <iframe src="https://maps.google.com/maps?q=大阪府大阪市北区神山町8-12&t=&z=16&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" title="VERY VERY FIZZY 地図"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- よくある質問 FAQ -->
+    <section id="faq" class="section">
+        <h2 class="section-title"><i class="fa-solid fa-circle-question" style="color:var(--sky-blue);"></i> FREQUENTLY ASKED</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <div class="faq-question"><i class="fa-solid fa-circle-check" style="color:var(--sky-blue);"></i> 一人での利用は可能ですか？</div>
+                <div class="faq-answer">もちろん大歓迎です！カウンター席がございますので、お一人様でも部室に遊びに来る感覚で気軽にお過ごしいただけます。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><i class="fa-solid fa-circle-check" style="color:var(--sky-blue);"></i> バータイムのドレスコードはありますか？</div>
+                <div class="faq-answer">夜のバータイム（19:00〜）は短パン・水着・スポーツユニフォーム・下着等のドレスコードがございます。土日祝昼の喫茶タイム（15:00〜19:00）は私服でお越しいただけます。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><i class="fa-solid fa-circle-check" style="color:var(--sky-blue);"></i> クレジットカードや電子マネーは使えますか？</div>
+                <div class="faq-answer">はい。各種クレジットカード、交通系ICカード、PayPayなどのQRコード決済に対応しております。</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <p>&copy; 2025 VERY VERY FIZZY. All Rights Reserved.</p>
+        <span class="admin-link" id="openAdminBtn">管理者ログイン / 部室ニュース投稿</span>
+    </footer>
+
+    <!-- 管理画面モーダル -->
+    <div class="modal" id="adminModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeAdminBtn">&times;</span>
+            <h3 style="margin-bottom: 18px; color: var(--club-navy); font-weight: 800;"><i class="fa-solid fa-gear"></i> 部室ニュース・お知らせ管理</h3>
+            
+            <form id="eventForm">
+                <div class="form-group">
+                    <label>日付</label>
+                    <input type="text" id="eventDate" class="form-control" placeholder="例: 2025.07.03" required>
+                </div>
+                <div class="form-group">
+                    <label>タグ / カテゴリ</label>
+                    <select id="eventTag" class="form-control">
+                        <option value="EVENT">EVENT（イベント）</option>
+                        <option value="OPEN">OPEN（オープン情報）</option>
+                        <option value="INFO">INFO（お知らせ）</option>
+                        <option value="CAMPAIGN">CAMPAIGN（キャンペーン）</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>タイトル</label>
+                    <input type="text" id="eventTitle" class="form-control" placeholder="例: 夏の水着イベント開催！" required>
+                </div>
+                <div class="form-group">
+                    <label>告知画像（※任意）</label>
+                    <input type="file" id="eventImage" class="form-control" accept="image/*">
+                </div>
+                <div class="form-group">
+                    <label>詳細本文</label>
+                    <textarea id="eventDesc" class="form-control" placeholder="イベントの詳細や注意事項をご記入ください" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">ホームページへ反映・投稿する</button>
+            </form>
+
+            <hr style="margin: 22px 0; border: none; border-top: 1px solid #e2e8f0;">
+            <h4 style="margin-bottom: 12px; font-size: 0.95rem; color: var(--club-navy);">投稿一覧（削除）</h4>
+            <div id="adminPostList"></div>
+        </div>
+    </div>
+
+    <!-- スクリプト -->
+    <script>
+        const defaultEvents = [
+            {
+                id: 1,
+                date: "2025.07.03",
+                tag: "OPEN",
+                title: "グランドオープンのお報せ",
+                desc: "梅田・堂山町に「VERY VERY FIZZY」がGRAND OPEN！皆様のお越しを心よりお待ちしております。",
+                image: "https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630"
+            },
+            {
+                id: 2,
+                date: "2025.07.01",
+                tag: "EVENT",
+                title: "土日祝限定「ゲイしかいない喫茶店」スタート",
+                desc: "土日祝の15:00〜19:00は喫茶タイムとしてオープン！私服で気軽にお越しいただけるカフェ営業です。",
+                image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+            }
+        ];
+
+        function getEvents() {
+            const stored = localStorage.getItem('vvf_events');
+            return stored ? JSON.parse(stored) : defaultEvents;
+        }
+
+        function renderEvents() {
+            const events = getEvents();
+            const container = document.getElementById('eventContainer');
+            const adminList = document.getElementById('adminPostList');
+
+            container.innerHTML = '';
+            adminList.innerHTML = '';
+
+            events.forEach(evt => {
+                const card = document.createElement('div');
+                card.className = 'event-card';
+                card.innerHTML = `
+                    <div class="event-img-wrap">
+                        <img src="${evt.image || 'https://www.gclick.jp/img1/osaka_very_very_fizzy01.jpg?1790998630'}" class="event-img" alt="${evt.title}">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-meta">
+                            <span class="event-date">${evt.date}</span>
+                            <span class="event-tag">${evt.tag}</span>
+                        </div>
+                        <h3 class="event-title">${evt.title}</h3>
+                        <p class="event-desc">${evt.desc}</p>
+                    </div>
+                `;
+                container.appendChild(card);
+
+                const adminItem = document.createElement('div');
+                adminItem.style.padding = "10px 0";
+                adminItem.style.borderBottom = "1px solid #f1f5f9";
+                adminItem.style.display = "flex";
+                adminItem.style.justifyContent = "space-between";
+                adminItem.style.alignItems = "center";
+                adminItem.innerHTML = `
+                    <div style="font-size:0.88rem;">
+                        <strong>[${evt.tag}] ${evt.title}</strong>
+                    </div>
+                    <button class="delete-btn" onclick="deleteEvent(${evt.id})">削除</button>
+                `;
+                adminList.appendChild(adminItem);
+            });
+        }
+
+        document.getElementById('eventForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const date = document.getElementById('eventDate').value;
+            const tag = document.getElementById('eventTag').value;
+            const title = document.getElementById('eventTitle').value;
+            const desc = document.getElementById('eventDesc').value;
+            const fileInput = document.getElementById('eventImage');
+
+            const newId = Date.now();
+
+            const saveAndRender = (imgDataUrl) => {
+                const events = getEvents();
+                events.unshift({
+                    id: newId,
+                    date: date,
+                    tag: tag,
+                    title: title,
+                    desc: desc,
+                    image: imgDataUrl
+                });
+                localStorage.setItem('vvf_events', JSON.stringify(events));
+                renderEvents();
+                document.getElementById('eventForm').reset();
+                alert('新しい投稿を反映しました！');
+            };
+
+            if (fileInput.files && fileInput.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    saveAndRender(e.target.result);
+                };
+                reader.readAsDataURL(fileInput.files[0]);
+            } else {
+                saveAndRender('');
+            }
+        });
+
+        window.deleteEvent = function(id) {
+            if (confirm('この投稿を削除しますか？')) {
+                let events = getEvents();
+                events = events.filter(evt => evt.id !== id);
+                localStorage.setItem('vvf_events', JSON.stringify(events));
+                renderEvents();
+            }
+        };
+
+        const modal = document.getElementById('adminModal');
+        const ADMIN_PIN = "1234";
+
+        document.getElementById('openAdminBtn').addEventListener('click', () => {
+            const pin = prompt('管理者暗証番号を入力してください (初期値: 1234):');
+            if (pin === ADMIN_PIN) {
+                modal.style.display = 'flex';
+            } else if (pin !== null) {
+                alert('暗証番号が異なります。');
+            }
+        });
+
+        document.getElementById('closeAdminBtn').addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        const menuBtn = document.getElementById('menuBtn');
+        const navLinks = document.getElementById('navLinks');
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        renderEvents();
+    </script>
+</body>
+</html>
